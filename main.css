@@ -137,7 +137,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 .header-text {
-    font-size: 64px;
+    font-size: 3rem;
     text-align: center;
     font-family: Roboto, sans-serif;
     padding: 15px;
@@ -145,42 +145,59 @@ table {
 }
 
 .medium-text {
-    font-size: 32px;
+    font-size: 1.5rem;
     font-family: Roboto, sans-serif;
 }
 
 .small-text {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: Roboto, sans-serif;
 }
 
 .container {
     width: 80%;
-    margin: auto;
+    height: 100vh - 15px;
+    margin: 25px auto 10px auto;
 }
 
 .container * {
     margin: 5px auto;
 }
+
 #header-box {
-    background-color: lightblue;
+    padding: 20px;
 }
 
 #output-box {
-    background-color: lightcoral;
+    padding: 10px;
 }
 
 #button-box {
-    background-color: lightgreen;
     display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    border: 2px solid black;
 }
 
 #score-box {
-    background-color: orangered;
+    width: 30%;
+    border: 2px solid black;
 }
 
 .btn {
-    background-color: silver;
     width: 20%;
+    padding: 25px;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.underline {
+    text-decoration: underline;
 }
