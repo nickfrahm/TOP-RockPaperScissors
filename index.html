@@ -16,15 +16,16 @@
     </div>
     <div class="container">
         <div id="output-box" class="">
-            <p class="medium-text">Press a button...</p>
+            <p class="medium-text" id="output">Press a button...</p>
         </div>
         <div id="button-box" class="">
-            <div class="btn"><span class="medium-text">Rock</span></div>
-            <div class="btn"><span class="medium-text">Paper</span></div>
-            <div class="btn"><span class="medium-text">Scissors</span></div>
+            <div class="btn" onclick="playRound('Rock')"><span class="medium-text">Rock</span></div>
+            <div class="btn" onclick="playRound('Paper')"><span class="medium-text">Paper</span></div>
+            <div class="btn" onclick="playRound('Scissors')"><span class="medium-text">Scissors</span></div>
         </div>
-        <div id="score-box" class="">
-            <h2 class="small-text underline">Score</h2>
+        <p class="small-text space-down">First to five wins.</p>
+        <div id="score-box">
+            <h2 class="medium-text underline">Score</h2>
             <p class="small-text">Computer: <span id="computer">0</span></p>
             <p class="small-text">User: <span id="user">0</span></p>
         </div>
