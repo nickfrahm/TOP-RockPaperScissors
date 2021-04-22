@@ -136,58 +136,12 @@ table {
 /****************Roboto Font****************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body {
-    height: 100vh;
-    text-align: center;
-}
-
-.container {
-    margin: 0 auto;
-    display: flex;
-}
-
-.col-1 {
-    flex-basis: 8.333%;
-}
-.col-2 {
-    flex-basis: 16.666%;
-}
-.col-3 {
-    flex-basis: 25%;
-}
-.col-4 {
-    flex-basis: 33.333%;
-}
-.col-5 {
-    flex-basis: 41.666%;
-}
-.col-6 {
-    flex-basis: 50%;
-}
-.col-7 {
-    flex-basis: 58.333%;
-}
-.col-8 {
-    flex-basis: 66.666%;
-}
-.col-9 {
-    flex-basis: 75%;
-}
-.col-10 {
-    flex-basis: 83.333%;
-}
-.col-11 {
-    flex-basis: 91.666%;
-}
-.col-12 {
-    flex-basis: 100%;
-}
-
 .header-text {
     font-size: 64px;
     text-align: center;
     font-family: Roboto, sans-serif;
     padding: 15px;
+    text-align: center;
 }
 
 .medium-text {
@@ -195,6 +149,19 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.small-text {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container * {
+    margin: 5px auto;
+}
 #header-box {
     background-color: lightblue;
 }
@@ -205,8 +172,15 @@ body {
 
 #button-box {
     background-color: lightgreen;
+    display: flex;
 }
 
 #score-box {
     background-color: orangered;
+}
+
+.btn {
+    background-color: silver;
+    width: 20%;
+    text-align: center;
 }
