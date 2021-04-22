@@ -133,16 +133,54 @@ table {
     border-spacing: 0;
 }
 
-/**************End of Reset*****************/
-
-
-
 /****************Roboto Font****************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.row {
-    width: 100%;
-    padding: 10px;
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.col-1 {
+    flex-basis: 8.333%;
+}
+.col-2 {
+    flex-basis: 16.666%;
+}
+.col-3 {
+    flex-basis: 25%;
+}
+.col-4 {
+    flex-basis: 33.333%;
+}
+.col-5 {
+    flex-basis: 41.666%;
+}
+.col-6 {
+    flex-basis: 50%;
+}
+.col-7 {
+    flex-basis: 58.333%;
+}
+.col-8 {
+    flex-basis: 66.666%;
+}
+.col-9 {
+    flex-basis: 75%;
+}
+.col-10 {
+    flex-basis: 83.333%;
+}
+.col-11 {
+    flex-basis: 91.666%;
+}
+.col-12 {
+    flex-basis: 100%;
 }
 
 .header-text {
@@ -155,4 +193,20 @@ table {
 .medium-text {
     font-size: 32px;
     font-family: Roboto, sans-serif;
+}
+
+#header-box {
+    background-color: lightblue;
+}
+
+#output-box {
+    background-color: lightcoral;
+}
+
+#button-box {
+    background-color: lightgreen;
+}
+
+#score-box {
+    background-color: orangered;
 }
